@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>livox_camera_lidar_calibration_ros2</name>
+  <version>0.1.0</version>
+  <description>ROS2 adaptation of Livox camera-lidar calibration tools (chessboard pipeline).</description>
+  <maintainer email="2816020017@qq.com">blademaster679</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>image_transport</depend>
+  <depend>cv_bridge</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_eigen</depend>
+  <depend>message_filters</depend>
+
+  <depend>eigen3_cmake_module</depend>
+  <exec_depend>eigen</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
