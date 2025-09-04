@@ -28,6 +28,9 @@ ament_target_dependencies(color_lidar_node
 ament_target_dependencies(pcd_transfer_node
   rclcpp sensor_msgs ament_index_cpp)
 
+ament_target_dependencies(corner_photo_cli ament_index_cpp)
+ament_target_dependencies(get_ext1_cli     ament_index_cpp)
+ament_target_dependencies(get_ext2_cli     ament_index_cpp)
 
 add_definitions(-DPROJECT_SOURCE_DIR=\"${PROJECT_SOURCE_DIR}\")
 
